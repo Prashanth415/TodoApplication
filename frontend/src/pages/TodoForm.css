@@ -1,0 +1,37 @@
+.todo-form{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.todo-form input{
+    flex:1;
+    padding:14px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    outline:none;
+}
+
+.todo-form textarea{
+    width:100%;
+    margin-top:15px;
+    padding:14px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    resize:none;
+}
+
+.todo-form button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px 28px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.todo-form button:hover{
+    background:#1d4ed8;
+}
